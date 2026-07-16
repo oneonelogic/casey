@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5C8F83988E46CD5A7337CB /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0EFECFF8C9EC8D60709B8E /* Chart.swift */; };
+		61B31AC9E4C9B229FF8CD60B /* CaseyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8BB601DA45257DC57FB2B /* CaseyApp.swift */; };
+		A44D441D6A65E63D6EB5B012 /* BillboardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFB4572D3A84CBD9BB6D34 /* BillboardClient.swift */; };
+		A943C1E3ECCF712327AF8681 /* PlaylistBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222FB84A8295FE9259CE0DB /* PlaylistBuilder.swift */; };
+		C39EA7DEBD0832A2D5CF83B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9BC0463A342795394442F /* ContentView.swift */; };
+		F1E6ED85ABC086D7D6C3E95F /* SongCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCE3F0218392ADF66E8CF1A /* SongCandidate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09DFB4572D3A84CBD9BB6D34 /* BillboardClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboardClient.swift; sourceTree = "<group>"; };
+		3B0EFECFF8C9EC8D60709B8E /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		52F18C331E02BBFE834B351D /* Casey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Casey.entitlements; sourceTree = "<group>"; };
+		65A9BC0463A342795394442F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9CF8BB601DA45257DC57FB2B /* CaseyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseyApp.swift; sourceTree = "<group>"; };
+		B222FB84A8295FE9259CE0DB /* PlaylistBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistBuilder.swift; sourceTree = "<group>"; };
+		CFCE3F0218392ADF66E8CF1A /* SongCandidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCandidate.swift; sourceTree = "<group>"; };
+		E844FB678C3C039E7CE11DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F52978FA2F6A60A7930D3A50 /* Casey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Casey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1C8240D21B352E07EEFD01DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				09DFB4572D3A84CBD9BB6D34 /* BillboardClient.swift */,
+				B222FB84A8295FE9259CE0DB /* PlaylistBuilder.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5267360F01E8152C8CC64D6D = {
+			isa = PBXGroup;
+			children = (
+				6CE3D011BCCAC62FDD095B48 /* Casey */,
+				618E6E0326ACDD80D94106EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		618E6E0326ACDD80D94106EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52978FA2F6A60A7930D3A50 /* Casey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE3D011BCCAC62FDD095B48 /* Casey */ = {
+			isa = PBXGroup;
+			children = (
+				52F18C331E02BBFE834B351D /* Casey.entitlements */,
+				9CF8BB601DA45257DC57FB2B /* CaseyApp.swift */,
+				E844FB678C3C039E7CE11DD9 /* Info.plist */,
+				C81D0FCE3B7384B7E5D92756 /* Models */,
+				1C8240D21B352E07EEFD01DC /* Services */,
+				B7EE293E59AB36D971494AB3 /* Views */,
+			);
+			path = Casey;
+			sourceTree = "<group>";
+		};
+		B7EE293E59AB36D971494AB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65A9BC0463A342795394442F /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C81D0FCE3B7384B7E5D92756 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B0EFECFF8C9EC8D60709B8E /* Chart.swift */,
+				CFCE3F0218392ADF66E8CF1A /* SongCandidate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B694853A87A3F633F38600D /* Casey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66EA1B18CD2452DAB8AD91C /* Build configuration list for PBXNativeTarget "Casey" */;
+			buildPhases = (
+				31B8D3314678BB4E118A4C46 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Casey;
+			packageProductDependencies = (
+			);
+			productName = Casey;
+			productReference = F52978FA2F6A60A7930D3A50 /* Casey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92BEF8ED5CE76A766D2E5CB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0B694853A87A3F633F38600D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9D1C115A787931B25CC4C587 /* Build configuration list for PBXProject "Casey" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5267360F01E8152C8CC64D6D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 618E6E0326ACDD80D94106EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B694853A87A3F633F38600D /* Casey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31B8D3314678BB4E118A4C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44D441D6A65E63D6EB5B012 /* BillboardClient.swift in Sources */,
+				61B31AC9E4C9B229FF8CD60B /* CaseyApp.swift in Sources */,
+				1A5C8F83988E46CD5A7337CB /* Chart.swift in Sources */,
+				C39EA7DEBD0832A2D5CF83B5 /* ContentView.swift in Sources */,
+				A943C1E3ECCF712327AF8681 /* PlaylistBuilder.swift in Sources */,
+				F1E6ED85ABC086D7D6C3E95F /* SongCandidate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D2FFAA04DAE4724F09AE735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Casey/Casey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Casey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneonelogic.casey;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		16B51761EE9DC62DE9A1B002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Casey/Casey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Casey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneonelogic.casey;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		4DBB62A0397BB707ABBA242A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9A9F39BC526765F74DB0BC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D1C115A787931B25CC4C587 /* Build configuration list for PBXProject "Casey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBB62A0397BB707ABBA242A /* Debug */,
+				9A9F39BC526765F74DB0BC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C66EA1B18CD2452DAB8AD91C /* Build configuration list for PBXNativeTarget "Casey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B51761EE9DC62DE9A1B002 /* Debug */,
+				0D2FFAA04DAE4724F09AE735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92BEF8ED5CE76A766D2E5CB0 /* Project object */;
+}

@@ -1,0 +1,28 @@
+name: Casey
+options:
+  bundleIdPrefix: com.oneonelogic
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+targets:
+  Casey:
+    type: application
+    platform: macOS
+    sources: [Casey]
+    entitlements:
+      path: Casey/Casey.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.network.client: true
+    info:
+      path: Casey/Info.plist
+      properties:
+        NSAppleMusicUsageDescription: Casey searches the Apple Music catalog and creates playlists in your library.
+        LSApplicationCategoryType: public.app-category.music
+        CFBundleDisplayName: Casey
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.oneonelogic.casey
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_HARDENED_RUNTIME: true
+        SWIFT_VERSION: "5.9"
